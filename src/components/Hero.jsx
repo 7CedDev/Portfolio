@@ -15,7 +15,7 @@ const Hero = () => {
 
       <div>
         <h1 className={`${styles.heroHeadText}
-        text-white`}>Hello, Je suis <span className='text-[#915eff]'>Cédric</span></h1>
+        text-white`}>Hello, je suis <span className='text-[#915eff]'>Cédric</span></h1>
         <p className={`${styles.heroSubText}mt-2
         text-xhite-100`} >
           Je développe des sites web et des applications dynamiques, <br className='sm:block hidden' /> en Front et Back
@@ -31,7 +31,7 @@ const Hero = () => {
           <div className='w-[35px] h-[64px]
           rounded-3xl border-4 border-secondary
           flex justify-center items-start p-2'>
-            <motion.dev 
+            <motion.div 
             animate={{
               y: [0,24, 0]
             }}
